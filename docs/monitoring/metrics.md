@@ -348,6 +348,7 @@ Parameters:
 
 - `host` - the Graphite server host
 - `port` - the Graphite server port
+- `protocol` - protocol used to send metrics to Graphite. Allowed values: `tcp`, `udp`, default: `tcp`
 
 ### StatsD (org.apache.flink.metrics.statsd.StatsDReporter)
 Dependency:
